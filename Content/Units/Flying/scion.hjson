@@ -1,8 +1,8 @@
-name: Dispose
+name: Scion
 description: Defends the Sprout core by building and shooting down small enemies.
 type: flying
 defaultController: BuilderAI
-outlineColor: 404639
+outlineColor: 473b3b
 
 health: 900
 armor: 3
@@ -13,13 +13,14 @@ speed: 3
 rotateSpeed: 9
 drag: 0.09
 accel: 0.15
-itemCapacity: 30
-buildSpeed: 2
+
+itemCapacity: 60
+buildSpeed: 3
 mineTier: 10
 mineSpeed: 10
 
-engineOffset: 7
 engineSize: 3
+engineOffset: 7
 
 weapons: [
  {

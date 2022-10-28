@@ -21,4 +21,4 @@ alwaysUnlocked: true
 
 isFirstTier: true
 squareSprite: false
-unitType: dispose
+unitType: scion

@@ -28,7 +28,14 @@ consumes: {
   amount: 0.12
   }
  }
-craftEffect: surgeCruciSmoke
+craftEffect: {
+ type: RadialEffect
+ effect: ventSteam
+ rotationSpacing: 90
+ rotationOffset: 45
+ lengthOffset: 12
+ lifetime: 120
+ }
 ambientSound: smelter
 outputItem: silicon/10
 craftTime: 210
