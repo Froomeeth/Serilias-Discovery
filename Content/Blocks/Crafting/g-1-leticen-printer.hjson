@@ -1,0 +1,47 @@
+name: Leticen Printer
+description: Prints leticen using nyobite and vanadinite.
+category: crafting
+type: GenericCrafter
+research: core-sprout
+alwaysUnlocked: true
+
+health: 1300
+size: 3
+requirements: [
+ tellurium/90
+ vanadinite/40
+ ]
+
+itemCapacity: 20
+consumes: {
+ items: {
+  items: [
+   nyobite/1
+   vanadinite/1
+   ]
+  }
+ }
+craftEffect: smeltsmoke
+ambientSound: techloop
+craftTime: 55
+outputItem: leticen/2
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawCrucibleFlame
+   flameRad: 3
+   circleSpace: 3
+   particleRad: 13
+   flameColor: 87ceeb
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}

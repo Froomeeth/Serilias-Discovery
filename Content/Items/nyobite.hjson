@@ -1,0 +1,7 @@
+name: Nyobite
+description: Used in all sorts of advanced mining and transport technology.
+research: tellurium
+alwaysUnlocked: true
+
+color: a9e0b5
+hardness: 10

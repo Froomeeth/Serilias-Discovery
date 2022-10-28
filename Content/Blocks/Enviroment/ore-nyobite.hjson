@@ -1,0 +1,5 @@
+name: Nyobite ore
+type: OreBlock
+itemDrop: nyobite
+mapColor: a9e0b5
+hasColor: true

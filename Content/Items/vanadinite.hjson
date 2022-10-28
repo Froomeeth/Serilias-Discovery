@@ -1,0 +1,7 @@
+name: Vanadinite
+description: Used in most chemical reactions and heat related buildings.
+research: tellurium
+alwaysUnlocked: true
+
+color: c95568
+hardness: 10

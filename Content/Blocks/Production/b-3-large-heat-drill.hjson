@@ -1,0 +1,36 @@
+name: Large Heat Drill
+description: An upgrade for the Heat drill, capable of mining oxide, tungsten and thorium.
+type: BurstDrill
+category: production
+research: b-2-heat-drill
+alwaysUnlocked: true
+
+health: 1190
+size: 3
+requirements: [
+ tellurium/120
+ nyobite/55
+ azulite/75
+ ]
+
+consumes: {
+ power: 0.5
+ liquid: {
+  liquid: methane
+  amount: 0.15
+  }
+ }
+ 
+hasLiquids: true
+tier: 11
+drillTime: 300
+drillEffect: mineBig
+itemCapacity: 25
+liquidCapacity: 15
+
+squareSprite: false
+
+arrowOffset: 0
+arrowSpacing: 0
+arrows: 1
+shake: 3

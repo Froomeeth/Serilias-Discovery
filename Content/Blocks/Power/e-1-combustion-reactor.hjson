@@ -1,0 +1,48 @@
+name: Combustion Reactor
+description: Generates power by burning up methane and vanadinite.
+category: power
+type: ConsumeGenerator
+research: core-sprout
+alwaysUnlocked: true
+
+health: 500
+size: 2
+requirements: [
+ leticen/45
+ vanadinite/30
+ nyobite/35
+ ]
+
+itemCapacity: 10
+consumes: {
+ items: {
+  items: [
+   vanadinite/1
+   ]
+  }
+ liquid: {
+  liquid: methane
+  amount: 0.1
+  }
+ }
+generateEffect: generatespark
+ambientSound: hum
+powerProduction: 1.5
+itemDuration: 200
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: methane
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}

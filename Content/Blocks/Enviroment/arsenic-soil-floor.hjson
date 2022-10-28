@@ -1,0 +1,6 @@
+name: Arsenic Soil
+type: Floor
+itemDrop: arsenic-dust
+mapColor: bec8d5
+hasColor: true
+variants: 3

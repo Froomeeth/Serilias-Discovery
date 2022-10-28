@@ -1,0 +1,58 @@
+name: Aluminite Press
+description: Mixes rubidic slate and tungsten, compressing them to make aluminite alloy.
+category: crafting
+type: GenericCrafter
+research: g-3-chlorine-syntheziser
+
+health: 1630
+size: 3
+requirements: [
+ azulite/90
+ rubidic-slate/75
+ vanadinite/50
+ tungsten/60
+ ]
+
+itemCapacity: 10
+consumes: {
+ power: 2.5
+ items: {
+  items: [
+   rubidic-slate/2
+   tungsten/3
+   ]
+  }
+ liquid: {
+  liquid: chlorine
+  amount: 0.15
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputItem: aluminite-alloy/2
+craftTime: 135
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: chlorine
+   }
+  {
+   type: DrawDefault
+   }
+  {
+   type: DrawWarmupRegion
+   }
+  {
+   type: DrawFlame
+   }
+  ]
+}
+
+alwaysUnlocked: true

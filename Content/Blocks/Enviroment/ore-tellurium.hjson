@@ -1,0 +1,5 @@
+name: Tellurium ore
+type: OreBlock
+itemDrop: tellurium
+mapColor: 656e83
+hasColor: true

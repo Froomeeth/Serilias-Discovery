@@ -1,0 +1,34 @@
+name: Methane Extractor
+description: Extracts methane from vents
+type: AttributeCrafter
+category: production
+research: core-sprout
+alwaysUnlocked: true
+
+health: 1000
+size: 3
+requirements: [
+ tellurium/60
+ ]
+ 
+liquidCapacity: 80
+attribute: steam
+minEfficiency: 9
+baseEfficiency: 0
+displayEfficiency: false
+craftEffect: turbinegenerate
+craftTime: 100
+ambientSound: hum
+hasLiquids: true
+hasItems: false
+outputLiquid: methane/1
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawDefault
+   }
+  ]
+}
+squareSprite: false

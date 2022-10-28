@@ -1,0 +1,5 @@
+name: Vanadinite ore
+type: OreBlock
+itemDrop: vanadinite
+mapColor: c95568
+hasColor: true

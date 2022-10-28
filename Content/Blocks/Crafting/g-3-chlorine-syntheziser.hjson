@@ -1,0 +1,50 @@
+name: Chlorine Syntheziser
+description: Mixes methane and arsenic dust into chlorine.
+category: crafting
+type: GenericCrafter
+research: g-2-azulite-smelter
+
+health: 1300
+size: 3
+requirements: [
+ tellurium/100
+ vanadinite/80
+ azulite/60
+ ]
+
+itemCapacity: 10
+liquidCapacity: 30
+consumes: {
+ power: 1.5
+ items: {
+  items: [
+   arsenic-dust/2
+   ]
+  }
+ liquid: {
+  liquid: slag
+  amount: 0.11
+  }
+ }
+ambientSound: hum
+outputLiquid: chlorine/0.4
+craftTime: 30
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: slag
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+
+alwaysUnlocked: true

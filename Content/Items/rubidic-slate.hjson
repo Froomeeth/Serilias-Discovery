@@ -1,0 +1,7 @@
+name: Rubidic Slate
+description: Used in many unit-building structures. Highly resistant.
+research: azulite
+alwaysUnlocked: true
+
+color: cbac50
+hardness: 11

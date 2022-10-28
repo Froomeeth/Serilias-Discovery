@@ -1,0 +1,8 @@
+name: Mangocyte
+description: Used to build all types of advanced defensive structures. Highly charged.
+research: aluminite-alloy
+alwaysUnlocked: true
+
+color: df7646
+hardness: 6
+charge: 5

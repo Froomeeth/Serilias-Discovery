@@ -1,0 +1,7 @@
+name: Aluminite Alloy
+description: Used in all sorts of advanced technology and as heavy ammo.
+research: arsenic-dust
+alwaysUnlocked: true
+
+color: d78465
+hardness: 12

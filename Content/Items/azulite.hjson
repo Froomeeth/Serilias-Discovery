@@ -1,0 +1,7 @@
+name: Azulite
+description: Used as main building material for defensive and advanced structures. Highly resistant.
+research: vanadinite
+alwaysUnlocked: true
+
+color: 6974c4
+hardness: 10
