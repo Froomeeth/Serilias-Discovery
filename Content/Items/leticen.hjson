@@ -1,7 +1,0 @@
-name: Leticen
-description: Used in all types of power related buildings.
-research: vanadinite
-alwaysUnlocked: true
-
-color: 87ceeb
-hardness: 10

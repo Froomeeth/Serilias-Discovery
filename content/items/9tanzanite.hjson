@@ -1,0 +1,9 @@
+name: Tanzanite
+description: Used as a booster for many support related buildings and main material for high tier units.
+research: 6arsenic-dust
+alwaysUnlocked: true
+
+color: b198c2
+hardness: 12
+
+cost: 2.7

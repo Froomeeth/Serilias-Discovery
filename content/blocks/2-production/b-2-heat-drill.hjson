@@ -1,0 +1,40 @@
+name: Heat Drill
+description: Mines items automatically by heating up and sending blast shockwaves to the ground.
+
+category: production
+type: BurstDrill
+
+research: b-1-methane-extractor
+alwaysUnlocked: true
+
+health: 370
+size: 2
+requirements: [
+ 1tellurium/30
+ ]
+
+hasLiquids: true
+hasPower: false
+
+itemCapacity: 15
+liquidCapacity: 10
+
+consumes: {
+ liquid: {
+  liquid: methane
+  amount: 0.1
+  }
+ }
+ 
+tier: 10
+blockedItem: tungsten
+drillTime: 450
+drillEffect: mineBig
+shake: 0.5
+
+
+arrowOffset: 0
+arrowSpacing: 0
+arrows: 1
+
+squareSprite: false

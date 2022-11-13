@@ -1,0 +1,57 @@
+name: Azulite Smelter
+description: Melts tellurium and nyobite into azulite.
+
+category: crafting
+type: GenericCrafter
+
+research: g-1-leticen-printer
+alwaysUnlocked: true
+
+health: 1400
+size: 3
+requirements: [
+ 2vanadinite/70
+ 3nyobite/75
+ 4leticen/50
+ ]
+
+hasPower: true
+hasItems: true
+hasLiquids: false
+
+itemCapacity: 10
+
+consumes: {
+ power: 1
+ items: {
+  items: [
+   1tellurium/1
+   3nyobite/2
+   ]
+  }
+ }
+ 
+ambientSound: hum
+craftTime: 30
+craftEffect: hitLancer
+outputItem: 5azulite/2
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawArcSmelt
+   }
+  {
+   type: DrawRegion
+   suffix: -glass
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}

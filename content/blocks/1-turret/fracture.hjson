@@ -1,0 +1,85 @@
+name: Fracture
+description: End-game breach funny pls laugh
+category: turret
+type: ItemTurret
+research: [
+ parent: breach
+ objective: azulite
+ ]
+ 
+health: 8900
+size: 5
+requirements: [
+ graphite/750
+ silicon/700
+ beryllium/900
+ 5azulite/650
+ carbide/300
+ ]
+ 
+hasPower: false
+hasItems: true
+hasLiquids: true
+liquidCapacity: 20
+reload: 27
+inaccuracy: 4
+  shootY: 1
+  shoot: {
+   shots: 9
+   shotDelay: 20
+   }
+range: 320
+
+ammoTypes: {
+ 5azulite: {
+  type: BasicBulletType
+  hitSize: 7
+  width: 12
+  height: 20
+  frontColor: ffffff
+  backColor: 8aa3f4
+  shootEffect: {
+   type: MultiEffect
+   effects: [shootBigColor, colorSparkBig] 
+   }
+  smokeEffect: shootBigSmoke
+  hitColor: 8aa3f4
+  hitEffect: hitBulletColor
+  despawnEffect: hitBulletColor
+  
+  speed: 8
+  lifetime: 40
+  damage: 47
+  reloadMultiplier: 0.8
+  
+  trailWidth: 2.1
+  trailLength: 10
+  trailColor: 8aa3f4
+  }
+ carbide: {
+  type: BasicBulletType
+  hitSize: 7
+  width: 12
+  height: 20
+  frontColor: ffffff
+  backColor: 89769a
+  shootEffect: {
+   type: MultiEffect
+   effects: [shootBigColor, colorSparkBig] 
+   }
+  smokeEffect: shootBigSmoke
+  hitColor: 89769a
+  hitEffect: hitBulletColor
+  despawnEffect: hitBulletColor
+  pierce: true
+  pierceCap: 2
+  
+  speed: 8
+  lifetime: 40
+  damage: 89
+  
+  trailWidth: 2.1
+  trailLength: 10
+  trailColor: 89769a
+  }
+ }

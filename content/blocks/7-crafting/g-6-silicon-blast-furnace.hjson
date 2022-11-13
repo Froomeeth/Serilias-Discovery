@@ -1,0 +1,54 @@
+name: Silicon Blast Furnace
+description: Uses tellurium, arsenic dust, tungsten and methane to manufacture siicon.
+
+category: crafting
+type: GenericCrafter
+
+research: g-2-azulite-smelter
+alwaysUnlocked: true
+
+health: 2970
+size: 4
+requirements: [
+ tungsten/95
+ 1tellurium/160
+ 5azulite/100
+ 8aluminite-alloy/50
+ ]
+
+itemCapacity: 30
+consumes: {
+ power: 4
+ items: {
+  items: [
+   tungsten/4
+   1tellurium/3
+   6arsenic-dust/5
+   ]
+  }
+ liquid: {
+  liquid: methane
+  amount: 0.12
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputItem: silicon/10
+craftTime: 210
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: methane
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}

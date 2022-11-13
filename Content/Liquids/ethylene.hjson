@@ -1,7 +1,7 @@
 name: Ethylene
 description: Used as an efficient burner and main liquid in chemical reactions
 type: liquid
-research: azulite
+research: 5azulite
 alwaysUnlocked: true
 
 color: d183c2

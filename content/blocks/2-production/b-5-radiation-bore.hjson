@@ -1,0 +1,37 @@
+name: Radiation Bore
+description: When placed facing an ore wall, mines items indefinetely. Requires power and methane to work.
+
+category: production
+type: BeamDrill
+
+research: b-3-large-heat-drill
+alwaysUnlocked: true
+
+health: 1200
+size: 3
+requirements: [
+ thorium/35
+ 2vanadinite/50
+ 3nyobite/115
+ 5azulite/60
+ ]
+
+hasLiquids: true
+hasPower: true
+
+itemCapacity: 25
+liquidCapacity: 15
+
+consumes: {
+ power: 0.90
+ liquid: {
+  liquid: methane
+  amount: 0.25
+  }
+ }
+
+tier: 11
+range: 6
+drillTime: 200
+
+heatColor: b9df8d

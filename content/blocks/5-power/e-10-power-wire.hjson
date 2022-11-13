@@ -1,0 +1,22 @@
+name: Power wire
+description: Connects 2 power wires.
+
+category: power
+type: BeamNode
+
+research: g-1-leticen-printer
+alwaysUnlocked: true
+
+health: 180
+size: 2
+requirements: [
+ 1tellurium/75
+ 4leticen/30
+ ]
+
+maxNodes: 8
+laserRange: 4
+
+laserColor1: c0ecff
+laserColor2: 87ceeb
+laserScale: 0.8

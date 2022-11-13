@@ -1,0 +1,15 @@
+name: Vanadinite Wall
+description: Protects structures from enemy projectiles.
+
+category: defense
+type: Wall
+
+research: core-sprout
+alwaysUnlocked: true
+
+health: 1000
+size: 2
+requirements: [
+ 1tellurium/12
+ 2vanadinite/24
+ ]

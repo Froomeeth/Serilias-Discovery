@@ -1,0 +1,27 @@
+name: Plated Liquid Pump
+description: Pumps liquids automatically. Requires power
+category: liquid
+type: Pump
+research: tellurium-conduit
+alwaysUnlocked: true
+
+health: 500
+size: 2
+requirements: [
+ tungsten/50
+ 2vanadinite/30
+ 3nyobite/40
+ ]
+ 
+hasItems: false
+hasLiquids: true
+hasPower: true
+
+consumes: {
+ power: 0.3
+ }
+ 
+pumpAmount: 0.3
+liquidCapacity: 90
+
+squareSprite: false

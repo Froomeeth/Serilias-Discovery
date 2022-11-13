@@ -1,6 +1,6 @@
 name: Rubidic Shale
 type: Floor
-itemDrop: rubidic-slate
+itemDrop: 7paragonite
 mapColor: cbac50
 hasColor: true
 variants: 3

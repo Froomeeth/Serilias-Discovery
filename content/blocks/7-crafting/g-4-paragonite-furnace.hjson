@@ -1,0 +1,62 @@
+name: Paragonite Furnace
+description: Smelts paragonite using heat, graphite and methane.
+
+category: crafting
+type: HeatCrafter
+
+research: g-3-chlorine-synthesizer
+alwaysUnlocked: true
+
+health: 1500
+size: 3
+requirements: [
+ graphite/50
+ thorium/50
+ 2vanadinite/100
+ ]
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+itemCapacity: 10
+liquidCapacity: 30
+
+heatRequirement: 8
+consumes: {
+ power: 1.4
+ items: {
+  items: [
+   graphite/1
+   ]
+  }
+ liquid: {
+  liquid: methane
+  amount: 0.11
+  }
+ }
+maxEfficiency: 2
+ 
+ambientSound: hum
+craftTime: 30
+craftEffect: turbinegenerate
+outputItem: 7paragonite/1
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: methane
+   }
+  {
+   type: DrawDefault
+   }
+  {
+   type: DrawHeatInput
+   }
+  ]
+}

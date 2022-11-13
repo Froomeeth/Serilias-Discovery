@@ -1,0 +1,20 @@
+name: Tellurium Conduit
+description: Moves liguids forward.
+
+category: liquid
+type: Conduit
+
+research: core-sprout
+alwaysUnlocked: true
+
+size: 1
+health: 30
+requirements:[
+1tellurium/1
+]
+
+underBullets: true
+liquidPressure: 1.05
+botColor: 322727
+
+junctionReplacement: tellurium-liquid-junction

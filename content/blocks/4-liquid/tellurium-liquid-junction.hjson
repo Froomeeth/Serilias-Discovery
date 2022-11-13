@@ -1,0 +1,18 @@
+name: Tellurium Liquid Junction
+description: Acts as a junction between two crossing conduits.
+
+category: liquid
+type: LiquidJunction
+
+research: tellurium-conduit
+alwaysUnlocked: true
+
+size: 1
+health: 30
+requirements:[
+1tellurium/3
+]
+
+underBullets: true
+solid: false
+squareSprite: false

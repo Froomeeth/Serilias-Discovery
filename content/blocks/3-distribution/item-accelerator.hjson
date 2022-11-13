@@ -1,0 +1,25 @@
+name: Item Accelerator
+description: Shoots item batches to other Item Accelerators in long ranges.
+
+category: distribution
+type: MassDriver
+
+research: core-sprout
+alwaysUnlocked: true
+
+health: 230
+size: 2
+requirements: [
+ 1tellurium/20
+ ]
+ 
+hasPower: false
+
+itemCapacity: 30
+
+reload: 175
+range: 200
+shake: 0.02
+
+squareSprite: false
+outlineColor: 473b3b

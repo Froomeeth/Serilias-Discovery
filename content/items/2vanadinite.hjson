@@ -1,0 +1,8 @@
+name: Vanadinite
+description: Used in most chemical reactions and heat related buildings.
+research: 1tellurium
+alwaysUnlocked: true
+
+color: c95568
+hardness: 10
+cost: 1
