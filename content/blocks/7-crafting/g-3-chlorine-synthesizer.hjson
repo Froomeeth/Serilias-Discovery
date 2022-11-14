@@ -1,4 +1,4 @@
-name: Chlorine Syntheziser
+name: Chlorine Synthesizer
 description: Mixes slag and arsenic dust into chlorine.
 
 category: crafting
@@ -16,7 +16,7 @@ requirements: [
  ]
 hasPower: true
 hasItems: true
-has:liquids: true
+hasLiquids: true
 
 itemCapacity: 10
 liquidCapacity: 30
@@ -48,7 +48,6 @@ drawer: {
   {
    type: DrawLiquidTile
    drawLiquid: slag
-   drawLiquidLight: false
    }
   {
    type: DrawRegion

@@ -6,7 +6,7 @@ type: CoreBlock
 
 research: {
   root: true
-  name: Emilura
+  name: Serilia
   requiresUnlock: false
 }
 alwaysUnlocked: true
