@@ -1,9 +1,0 @@
-name: Methane
-description: Used to power up and heat most basic buildings. Flammable
-type: liquid
-gas: true
-research: 1tellurium
-alwaysUnlocked: true
-
-color: 849c67
-flammability: 1.2

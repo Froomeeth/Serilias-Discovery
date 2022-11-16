@@ -1,8 +1,0 @@
-name: Chlorine
-description: Used as stabilizer in some factories.
-type: liquid
-gas: true
-research: methane
-alwaysUnlocked: true
-
-color: fc8e6c

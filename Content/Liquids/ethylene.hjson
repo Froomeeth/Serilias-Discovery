@@ -1,8 +1,0 @@
-name: Ethylene
-description: Used as an efficient burner and main liquid in chemical reactions
-type: liquid
-research: 5azulite
-alwaysUnlocked: true
-
-color: d183c2
-flammability: 1.2
