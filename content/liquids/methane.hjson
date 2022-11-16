@@ -1,0 +1,6 @@
+name: Methane
+description: Slightly explosive gas, used to power up most basic buildings.
+
+color: 80b061
+explosiveness: 0.75
+gas: true
