@@ -6,11 +6,11 @@ outlineColor: 473b3b
 
 health: 1500
 armor: 3
-hitSize: 22
+hitSize: 21
 
 flying: true
 lowAltitude: true
-speed: 4
+speed: 3
 rotateSpeed: 8
 drag: 0.05
 accel: 0.15

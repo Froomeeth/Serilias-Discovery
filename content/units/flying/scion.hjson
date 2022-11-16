@@ -9,7 +9,7 @@ armor: 3
 hitSize: 15
 
 flying: true
-speed: 3
+speed: 3.2
 rotateSpeed: 9
 drag: 0.09
 accel: 0.15
