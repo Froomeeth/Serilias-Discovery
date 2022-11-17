@@ -39,7 +39,6 @@ weapons: [
   pulseRadius: 3
   pulseStroke: 1
   healEffect: healBlock
-  maxRange: 40
   
   bullet: {
    type: BulletType
