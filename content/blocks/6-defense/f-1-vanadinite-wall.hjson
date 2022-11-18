@@ -4,7 +4,7 @@ description: Protects structures from enemy projectiles.
 category: defense
 type: Wall
 
-research: core-sprout
+research: a-1-arbalesta
 alwaysUnlocked: true
 
 health: 1000

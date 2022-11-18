@@ -4,7 +4,7 @@ description: Shoots a single-target laser at air units.
 category: turret
 type: ContinuousTurret
 
-research: a-1-quiver
+research: core-sprout
 alwaysUnlocked: true
 
 health: 1500
@@ -35,7 +35,7 @@ shootY: 2
 consumes: {
  liquid: {
   liquid: methane
-  amount: 0.2
+  amount: 0.4
   }
  }
  
@@ -43,13 +43,13 @@ shootSound: none
 loopSound: electricHum
 shootType: {
   type: PointLaserBulletType
+  sprite: serilia-arbalesta-laser
   damage: 13
   collidesGround: false
   
   hitColor: d5df8e
   hitEffect: hitBulletColor
   drawSize: 500
-  color: d5df8e
   }
 
 outlineColor: 473b3b
