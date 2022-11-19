@@ -1,7 +1,9 @@
 name: Large Heat Drill
-description: An upgrade for the Heat drill, capable of mining oxide, tungsten and thorium.
-type: BurstDrill
+description: An upgrade for the Heat drill, capable of mining thorium.
+
 category: production
+type: BurstDrill
+
 research: b-2-heat-drill
 alwaysUnlocked: true
 

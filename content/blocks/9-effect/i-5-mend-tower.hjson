@@ -1,0 +1,57 @@
+name: Mend Tower
+description: Automatically repairs nearby buildings, requires power and nitrogen to work.
+
+category: effect
+type: MendProjector
+
+research: core-sprout
+alwaysUnlocked: true
+
+health: 1475
+size: 3
+requirements: [
+ tungsten/100
+ 1tellurium/250
+ 5azulite/125
+ 7paragonite/200
+ ]
+
+hasItems: false
+hasLiquids: true
+hasPower: true
+
+liquidCapacity: 25
+
+consumes: {
+ power: 1.5
+ liquid: {
+  liquid: nitrogen
+  amount: 0.15
+  }
+ }
+
+range: 170
+healPercent: 10
+reload: 150
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: nitrogen
+   padding: 4
+   }
+  {
+   type: DrawDefault
+   }
+  {
+   type: DrawGlowRegion
+   }
+  ]
+}
+squareSprite: false

@@ -10,7 +10,8 @@ alwaysUnlocked: true
 health: 230
 size: 2
 requirements: [
- 1tellurium/20
+ 1tellurium/25
+ 2vanadinite/30
  ]
  
 hasPower: false

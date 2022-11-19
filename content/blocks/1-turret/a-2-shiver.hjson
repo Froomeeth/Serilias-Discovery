@@ -1,0 +1,84 @@
+name: Shiver
+description: Shoots long-range artillery bullets at ground units.
+
+category: turret
+type: ItemTurret
+
+research: a-1-arbalesta
+alwaysUnlocked: true
+
+health: 1600
+size: 3
+requirements: [
+ 2vanadinite/125
+ 3nyobite/100
+ 5azulite/75
+ ]
+ 
+hasPower: false
+hasItems: true
+hasLiquids: false
+
+itemCapacity: 20
+
+range: 274
+shootCone: 20
+
+targetAir: false
+targetGround: true
+
+rotateSpeed: 1.2
+
+reload: 155
+cooldownTime: 130
+shootY: 6
+shootSound: laser
+
+shoot: {
+ shots: 3
+ shotDelay: 8
+ }
+
+ammoTypes: {
+ 1tellurium: {
+  type: ArtilleryBulletType
+  width: 15
+  height: 19
+  frontColor: ffffff
+  backColor: 656e83
+  
+  damage: 78
+  splashDamage: 53
+  splashDamageRadius: 32
+  
+  speed: 5
+  lifetime: 54
+  
+  trailColor: 656e83
+  trailLength: 30
+  trailWidth: 4
+  
+  hitColor: 656e83
+  hitEffect: hitBulletColor
+  despawnEffect: hitBulletColor
+  }
+ }
+
+drawer: {
+ parts: [
+  {
+   type: RegionPart
+   suffix: -wing-l
+   moveY: 5
+   moveX: 1
+   }
+  {
+   type: RegionPart
+   suffix: -wing-r
+   moveY: 5
+   moveX: -1
+   }
+  ]
+ type: DrawTurret
+}
+outlineColor: 473b3b

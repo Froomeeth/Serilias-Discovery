@@ -1,0 +1,19 @@
+name: Tellurium Distributor
+description: .
+
+category: distribution
+type: StackRouter
+
+research: c-1-tellurium-conveyor
+alwaysUnlocked: true
+
+health: 195
+underBullets: true
+solid: false
+
+size: 1
+requirements: [
+ 1tellurium/10
+ ]
+
+speed: 6

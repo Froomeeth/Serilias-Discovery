@@ -7,7 +7,7 @@ type: Wall
 research: a-1-arbalesta
 alwaysUnlocked: true
 
-health: 1000
+health: 2000
 size: 2
 requirements: [
  1tellurium/12

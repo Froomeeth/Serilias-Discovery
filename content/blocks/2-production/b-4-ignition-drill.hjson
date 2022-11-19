@@ -26,7 +26,7 @@ hasLiquids: true
 tier: 12
 drillTime: 250
 drillEffect: mineBig
-itemCapacity: 35
+itemCapacity: 50
 liquidCapacity: 25
 
 squareSprite: false

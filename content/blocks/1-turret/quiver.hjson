@@ -1,0 +1,77 @@
+name: Quiver
+description: Shoots bursts of piercing bullets at enemy units
+category: turret
+type: ItemTurret
+research: cyclone
+
+health: 640
+size: 2
+requirements: [
+ titanium/100
+ thorium/75
+ silicon/70
+ ]
+
+hasLiquids: true
+hasItems: true
+liquidCapacity: 20
+maxAmmo: 10
+
+range: 200
+shootCone: 10
+inaccuracy: 10
+velocityRnd: 0.3
+xRand: 1
+shootY: -1
+reload: 70
+recoil: 2
+recoilTime: 90
+targetAir: true
+targetGround: true
+shake: 0.2
+shoot: {
+ shots: 5
+ shotDelay: 3
+ }
+ 
+ammoTypes: {
+ titanium: {
+  frontColor: c2bffb
+  backColor: 6974c4
+  width: 8
+  height: 12
+  
+  damage: 18
+  speed: 4
+  lifetime: 50
+  pierce: true
+  pierceBuildings: true
+  pierceCap: 3
+  
+  trailColor: 6974c4
+  trailLength: 30
+  trailWidth: 2
+  }
+  
+  thorium: {
+  frontColor: f0cde5
+  backColor: da9ac1
+  width: 8
+  height: 12
+  
+  damage: 22
+  speed: 4
+  lifetime: 50
+  pierce: true
+  pierceBuildings: true
+  pierceCap: 1
+  knockback: 1
+  impact: true
+  
+  trailColor: da9ac1
+  trailLength: 30
+  trailWidth: 2
+  }
+ }
+
+ammoPerShot: 2

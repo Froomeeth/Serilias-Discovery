@@ -26,8 +26,9 @@ shootCone: 360
 
 targetAir: true
 targetGround: false
+unitSort: strongest
 
-rotateSpeed: 1.4
+rotateSpeed: 1.6
 
 cooldownTime: 130
 shootY: 2
@@ -42,14 +43,48 @@ consumes: {
 shootSound: none
 loopSound: electricHum
 shootType: {
-  type: PointLaserBulletType
-  sprite: serilia-arbalesta-laser
-  damage: 13
-  collidesGround: false
+ type: PointLaserBulletType
+ sprite: serilia-arbalesta-laser
+ damage: 13
+ collidesGround: false
   
-  hitColor: d5df8e
-  hitEffect: hitBulletColor
-  drawSize: 500
-  }
+ hitColor: d5df8e
+ hitEffect: hitBulletColor
+ drawSize: 500
+ }
 
+drawer: {
+ parts: [
+  {
+   type: RegionPart
+   suffix: -core
+   moveY: -1
+   }
+  {
+   type: RegionPart
+   suffix: -lower-plate-r
+   moveY: 1
+   moveX: -1
+   }
+  {
+   type: RegionPart
+   suffix: -lower-plate-l
+   moveY: 1
+   moveX: 1
+   }
+  {
+   type: RegionPart
+   suffix: -upper-plate-r
+   moveY: 2
+   moveX: -1
+   }
+  {
+   type: RegionPart
+   suffix: -upper-plate-l
+   moveY: 2
+   moveX: 1
+   }
+  ]
+ type: DrawTurret
+}
 outlineColor: 473b3b

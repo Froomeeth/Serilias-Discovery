@@ -8,7 +8,7 @@ research: tellurium-conduit
 alwaysUnlocked: true
 
 size: 1
-health: 50
+health: 200
 requirements:[
 1tellurium/4
 ]

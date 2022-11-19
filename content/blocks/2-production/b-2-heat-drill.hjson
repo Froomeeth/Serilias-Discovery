@@ -5,7 +5,10 @@ category: production
 type: BurstDrill
 
 research: b-1-methane-extractor
-alwaysUnlocked: true
+researchCost: [
+ 1tellurium/10
+ ]
+alwaysUnlocked: false
 
 health: 370
 size: 2
@@ -13,6 +16,7 @@ requirements: [
  1tellurium/30
  ]
 
+hasItems: true
 hasLiquids: true
 hasPower: false
 
@@ -27,7 +31,7 @@ consumes: {
  }
  
 tier: 10
-blockedItem: tungsten
+blockedItem: thorium
 drillTime: 450
 drillEffect: mineBig
 shake: 0.5
