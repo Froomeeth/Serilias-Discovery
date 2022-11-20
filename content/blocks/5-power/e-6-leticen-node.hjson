@@ -4,7 +4,7 @@ description: Transports power from one node to another.
 category: power
 type: BeamNode
 
-research: e-1-combustion-generator
+research: e-1-combustion-reactor
 researchCost: [
  1tellurium/10
  4leticen/50

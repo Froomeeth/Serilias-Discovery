@@ -1,0 +1,58 @@
+name: Nitrogen Synthesizer
+description: Uses chlorine and heat to synthesize nitrogen.
+
+category: crafting
+type: HeatCrafter
+
+research: g-3-chlorine-synthesizer
+alwaysUnlocked: true
+
+health: 1450
+size: 3
+requirements: [
+ thorium/75
+ tungsten/100
+ 5azulite/110
+ 7paragonite/50
+ ]
+hasPower: true
+hasItems: false
+hasLiquids: true
+
+liquidCapacity: 50
+
+heatRequirement: 7
+consumes: {
+ power: 1.6
+ liquid: {
+  liquid: chlorine
+  amount: 0.3
+  }
+ }
+maxEfficiency: 2
+ 
+ambientSound: hum
+craftTime: 130
+outputLiquid: nitrogen/0.75
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: nitrogen
+   padding: 4
+   }
+  {
+   type: DrawRegion
+   suffix: -glass
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}

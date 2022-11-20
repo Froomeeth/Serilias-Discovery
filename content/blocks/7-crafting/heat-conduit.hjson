@@ -1,0 +1,34 @@
+name: Heat Conduit
+description: Transports power from one node to another.
+
+category: crafting
+type: HeatConductor
+
+research: g-4.5-chlorine-heater
+researchCost: [
+ graphite/10
+ 2vanadinite/15
+ ]
+alwaysUnlocked: true
+
+health: 250
+size: 1
+requirements: [
+ graphite/10
+ 2vanadinite/15
+ ]
+ 
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawDefault
+   }
+  {
+   type: DrawHeatInput
+   }
+  {
+   type: DrawHeatOutput
+   }
+  ]
+}

@@ -1,0 +1,32 @@
+generator: AsteroidGenerator
+parent: serpulo
+orbitRadius: 3
+camRadius: -0.7
+minZoom: 1
+bloom: true
+alwaysUnlocked: true
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0
+drawOrbit: false
+orbitTime: 15
+defaultEnv: 17
+defaultCore: core-sprout
+clearSectorOnLose: true
+
+mesh: {
+  type: NoiseMesh
+  divisions: 3
+  radius: 0.1
+  planet: reprise
+  color1: 60496d
+  color2: 3c4448
+  octaves: 4
+  persistence: 0.2
+  scale: 0.99
+  mag: 5
+  coct: 4
+  cper: 1.4
+  cscl: 0.3
+  cthresh: 0.01
+}

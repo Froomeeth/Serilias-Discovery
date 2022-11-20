@@ -1,0 +1,63 @@
+name: Chlorine Heater
+description: Uses chlorine to produce methane and heat.
+
+category: crafting
+type: HeatProducer
+
+research: g-4-paragonite-furnace
+alwaysUnlocked: true
+
+health: 940
+size: 3
+requirements: [
+ thorium/100
+ tungsten/25
+ 2vanadinite/100
+ ]
+hasPower: true
+hasItems: false
+hasLiquids: true
+
+liquidCapacity: 10
+
+consumes: {
+ power: 0.7
+ liquid: {
+  liquid: chlorine
+  amount: 0.1
+  }
+ }
+ 
+ambientSound: hum
+craftTime: 70
+outputLiquid: methane/0.5
+heatOutput: 7
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: chlorine
+   }
+  {
+   type: DrawCrucibleFlame
+   }
+  {
+   type: DrawRegion
+   suffix: -glass
+   }
+  {
+   type: DrawDefault
+   }
+  {
+   type: DrawHeatOutput
+   }
+  ]
+}
+rotateDraw: false
+regionRotated1: 2
