@@ -1,6 +1,21 @@
 name: serilia
-displayName: Serilia's discovery
-author: Froomeeth
-description: WIP mod, there a lots of unfinished/bugged content, will update with more content, sprite reworks and bug fixes.
+displayName: Serilia's Discovery
+author: 
+  '''
+  
+  Developer: Froomeeth
+  
+  German Translations: Fresh791
+  
+  ''' 
+description: 
+  '''
+  
+  WIP mod, there a lots of unfinished/bugged content, 
+  will update with more content, sprite reworks and bug fixes.
+  
+  Also available in German!
+  
+  '''
 version: 1.1
 minGameVersion: 136
