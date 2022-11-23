@@ -1,5 +1,5 @@
 name: Tellurium Distributor
-description: .
+description: Distributes items evenly between it's outputs.
 
 category: distribution
 type: StackRouter
