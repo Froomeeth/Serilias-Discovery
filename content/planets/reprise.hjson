@@ -10,7 +10,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0
 drawOrbit: false
 orbitTime: 15
-defaultEnv: 17
+defaultEnv: 14
 defaultCore: core-sprout
 clearSectorOnLose: true
 

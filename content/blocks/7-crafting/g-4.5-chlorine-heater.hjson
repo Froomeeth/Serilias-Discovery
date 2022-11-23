@@ -30,7 +30,7 @@ consumes: {
  
 ambientSound: hum
 craftTime: 70
-outputLiquid: methane/0.5
+outputLiquid: methane/0.1
 heatOutput: 7
 
 drawer: {

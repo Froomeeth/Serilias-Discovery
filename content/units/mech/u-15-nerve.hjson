@@ -1,0 +1,59 @@
+name: Nerve
+description: Fires standard bullets at enemy units. Usually appear in groups.
+type: mech
+outlineColor: 473b3b
+mechLegColor: 473b3b
+
+health: 500
+armor: 3
+hitSize: 9
+
+speed: 1.2
+rotateSpeed: 2.6
+accel: 0.15
+
+itemCapacity: 0
+
+weapons: [
+ {
+  type: Weapon
+  name: u-15-nerve-weapon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 4.2
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 0
+  reload: 26
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 150
+  
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   
+   damage: 25
+   
+   speed: 2.7
+   lifetime: 45
+   
+   trailWidth: 1
+   trailLength: 5
+   }
+  }
+ ]
+
+
+research: {
+  root: true
+  name: Serilian's enemy list
+  requiresUnlock: false
+}
+alwaysUnlocked: false

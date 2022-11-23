@@ -21,7 +21,7 @@ hasLiquids: true
 itemCapacity: 10
 liquidCapacity: 30
 
-heatRequirement: 8
+heatRequirement: 4
 consumes: {
  power: 1.4
  items: {

@@ -1,0 +1,58 @@
+name: Filament
+description: Fires bursts of bullets at enemy units. Always seen along other units.
+type: mech
+outlineColor: 473b3b
+mechLegColor: 473b3b
+
+health: 900
+armor: 3
+hitSize: 15
+
+speed: 1
+rotateSpeed: 2
+accel: 0.15
+
+itemCapacity: 0
+
+weapons: [
+ {
+  type: Weapon
+  name: u-16-filament-weapon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: 5
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 2
+  reload: 76
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 150
+  
+  shoot: {
+   shots: 3
+   shotDelay: 4
+   }
+  
+  bullet: {
+   type: BasicBulletType
+   width: 10
+   height: 14
+   
+   damage: 46
+   
+   speed: 3
+   lifetime: 70
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+ ]
+
+research: u-15-nerve

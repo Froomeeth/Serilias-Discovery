@@ -49,7 +49,7 @@ ammoTypes: {
   
   damage: 78
   splashDamage: 53
-  splashDamageRadius: 32
+  splashDamageRadius: 22
   
   speed: 5
   lifetime: 54
