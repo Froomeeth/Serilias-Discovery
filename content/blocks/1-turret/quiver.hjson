@@ -4,8 +4,8 @@ category: turret
 type: ItemTurret
 research: cyclone
 
-health: 640
-size: 2
+health: 1750
+size: 3
 requirements: [
  titanium/100
  thorium/75

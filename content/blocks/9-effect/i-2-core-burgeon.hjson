@@ -1,0 +1,27 @@
+name: "Core: Burgeon"
+description: Core of the base. Armored. Once destroyed, the sector is lost.
+
+category: effect
+type: CoreBlock
+
+research: {
+  root: true
+  name: Serilia
+  requiresUnlock: false
+}
+alwaysUnlocked: true
+
+health: 15000
+size: 5
+itemCapacity: 9000
+requirements: [
+ lead/5000
+ 1iridium/4500
+ 3nyobite/3000
+ 5azulite/4000
+ ]
+
+isFirstTier: true
+unitType: scion
+
+squareSprite: false

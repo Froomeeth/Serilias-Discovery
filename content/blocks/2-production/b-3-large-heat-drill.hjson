@@ -10,7 +10,7 @@ alwaysUnlocked: true
 health: 1190
 size: 3
 requirements: [
- 1tellurium/120
+ 1iridium/120
  3nyobite/55
  5azulite/75
  ]

@@ -1,0 +1,28 @@
+name: Heavy Conduit Bridge
+description: Transports fluids over structures and terrain.
+
+category: liquid
+type: LiquidBridge
+
+research: d-3-heavy-conduit-router
+alwaysUnlocked: true
+
+size: 1
+health: 200
+requirements:[
+ 1iridium/10
+ 2vanadinite/5
+]
+
+hasItems: false
+hasLiquids: true
+hasPower: false
+
+range: 5
+
+underBullets: true
+solid: true
+
+fadeIn: false
+moveArrows: true
+arrowSpacing: 3

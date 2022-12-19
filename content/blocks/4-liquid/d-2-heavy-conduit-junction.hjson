@@ -1,0 +1,19 @@
+name: Heavy Conduit Junction
+description: Acts as a junction between two crossing conduits.
+
+category: liquid
+type: LiquidJunction
+
+research: d-1-heavy-conduit
+alwaysUnlocked: true
+
+size: 1
+health: 190
+requirements:[
+1iridium/3
+]
+
+solid: false
+underBullets: true
+
+squareSprite: false

@@ -6,7 +6,7 @@ type: BeamNode
 
 research: e-1-combustion-reactor
 researchCost: [
- 1tellurium/10
+ 1iridium/10
  4leticen/50
  ]
 alwaysUnlocked: true
@@ -14,7 +14,7 @@ alwaysUnlocked: true
 health: 150
 size: 1
 requirements: [
- 1tellurium/1
+ 1iridium/1
  4leticen/3
  ]
  

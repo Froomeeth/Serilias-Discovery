@@ -1,6 +1,8 @@
 name: Chlorine
 description: Slightly explosive gas, used to power up most basic buildings.
 
+research: methane
+
 color: ea8878
 explosiveness: 2
 gas: true

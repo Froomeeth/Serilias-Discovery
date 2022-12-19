@@ -10,7 +10,7 @@ alwaysUnlocked: true
 health: 1000
 size: 3
 requirements: [
- 1tellurium/75
+ 1iridium/75
  2vanadinite/50
  ]
  

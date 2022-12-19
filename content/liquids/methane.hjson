@@ -1,6 +1,8 @@
 name: Methane
 description: Slightly explosive gas, used to power up most basic buildings.
 
+research: 1iridium
+
 color: 80b061
 explosiveness: 0.75
 gas: true

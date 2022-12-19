@@ -6,14 +6,14 @@ type: BurstDrill
 
 research: b-1-methane-extractor
 researchCost: [
- 1tellurium/10
+ 1iridium/10
  ]
 alwaysUnlocked: false
 
 health: 370
 size: 2
 requirements: [
- 1tellurium/30
+ 1iridium/30
  ]
 
 hasItems: true
@@ -41,4 +41,20 @@ arrowOffset: 0
 arrowSpacing: 0
 arrows: 1
 
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: methane
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
 squareSprite: false

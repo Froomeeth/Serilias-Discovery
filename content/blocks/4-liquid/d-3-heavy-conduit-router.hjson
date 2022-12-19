@@ -1,0 +1,20 @@
+name: Heavy Conduit Router
+description: Distributes liquids evenly.
+
+category: liquid
+type: LiquidRouter
+
+research: d-1-heavy-conduit
+alwaysUnlocked: true
+
+size: 1
+health: 200
+requirements:[
+1iridium/4
+]
+
+solid: false
+underBullets: true
+
+liquidPressure: 1.05
+liquidCapacity: 30

@@ -1,0 +1,24 @@
+name: Heavy Conduit
+description: Moves liguids forward.
+
+category: liquid
+type: Conduit
+
+research: core-sprout
+alwaysUnlocked: true
+
+size: 1
+health: 190
+requirements:[
+1iridium/1
+]
+
+solid: false
+underBullets: true
+
+liquidPressure: 1.05
+
+junctionReplacement: d-2-heavy-conduit-junction
+bridgeReplacement: d-4-heavy-conduit-bridge
+
+botColor: 322727

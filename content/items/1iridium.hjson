@@ -1,0 +1,8 @@
+name: Iridium
+description: Used to build all types of basic buildings.
+research: core-sprout
+alwaysUnlocked: true
+
+color: 656e83
+hardness: 4
+cost: 2

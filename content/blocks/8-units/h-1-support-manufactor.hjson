@@ -1,0 +1,33 @@
+name: Support Manufactor
+description: Produces support units.
+
+category: units
+type: UnitFactory
+
+research: core-sprout
+alwaysUnlocked: true
+
+health: 3000
+size: 4
+requirements: [
+ thorium/250
+ 1iridium/250
+ 3nyobite/100
+ 5azulite/200
+ ]
+
+consumes: {
+  power: 8
+ }
+
+plans: [
+ {
+  unit: paluda
+  time: 2700
+  requirements: [
+   graphite/50
+   7paragonite/100
+   5azulite/75
+   ]
+  }
+ ]

@@ -6,14 +6,14 @@ type: AttributeCrafter
 
 research: core-sprout
 researchCost: [
- 1tellurium/25
+ 1iridium/25
  ]
 alwaysUnlocked: false
 
 health: 1000
 size: 3
 requirements: [
- 1tellurium/75
+ 1iridium/75
  ]
  
 hasItems: false

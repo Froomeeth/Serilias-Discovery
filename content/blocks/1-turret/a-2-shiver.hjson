@@ -40,7 +40,7 @@ shoot: {
  }
 
 ammoTypes: {
- 1tellurium: {
+ 1iridium: {
   type: ArtilleryBulletType
   width: 15
   height: 19

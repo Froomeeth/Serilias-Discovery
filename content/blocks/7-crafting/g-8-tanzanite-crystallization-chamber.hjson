@@ -1,0 +1,60 @@
+name: Tanzanite Crystallization Chamber
+description: Manufactures tanzanite by heating upand mixing thorium, azulite, paragonite and aluminite alloy.
+
+category: crafting
+type: HeatCrafter
+
+research: g-5-aluminite-press
+alwaysUnlocked: true
+
+health: 2800
+size: 4
+requirements: [
+ thorium/100
+ tungsten/60
+ 2vanadinite/50
+ 5azulite/90
+ 7paragonite/75
+ ]
+
+itemCapacity: 30
+
+heatRequirement: 15
+consumes: {
+ power: 3.6
+ items: {
+  items: [
+   thorium/1
+   5azulite/1
+   7paragonite/5
+   8aluminite-alloy/1
+   ]
+  }
+ }
+craftEffect: none
+ambientSound: electricHum
+outputItem: 9tanzanite/6
+craftTime: 195
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawPlasma
+   }
+  {
+   type: DrawRegion
+   suffix: -glass
+   }
+  {
+   type: DrawDefault
+   }
+  {
+   type: DrawHeatInput
+   }
+  ]
+}

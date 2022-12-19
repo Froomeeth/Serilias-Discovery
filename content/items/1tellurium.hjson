@@ -1,8 +1,0 @@
-name: Tellurium
-description: Used to construct most types of basic buildings.
-research: core-sprout
-alwaysUnlocked: true
-
-color: 656e83
-hardness: 4
-cost: 2

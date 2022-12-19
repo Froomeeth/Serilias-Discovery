@@ -11,7 +11,7 @@ atmosphereRadOut: 0
 drawOrbit: false
 orbitTime: 15
 defaultEnv: 14
-defaultCore: core-sprout
+defaultCore: i-1-core-sprout
 clearSectorOnLose: true
 
 mesh: {

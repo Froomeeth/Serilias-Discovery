@@ -1,0 +1,22 @@
+name: Iridium Conveyor
+description: Moves items forward in groups of 5.
+
+category: distribution
+type: StackConveyor
+
+research: core-sprout
+alwaysUnlocked: true
+
+health: 195
+underBullets: true
+solid: false
+
+size: 1
+requirements: [
+ 1iridium/2
+ ]
+
+itemCapacity: 5
+outputRouter: false
+
+speed: 0.065

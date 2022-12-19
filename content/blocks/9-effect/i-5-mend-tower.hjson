@@ -10,8 +10,8 @@ alwaysUnlocked: true
 health: 1475
 size: 3
 requirements: [
- tungsten/100
- 1tellurium/250
+ lead/100
+ 1iridium/250
  5azulite/125
  7paragonite/200
  ]
